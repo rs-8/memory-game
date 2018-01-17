@@ -1,0 +1,16 @@
+.start-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+}
+.start-page-box {
+  text-align: center;
+}
+.start-page-box h1 {
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px; 
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-top: 20px;
+}

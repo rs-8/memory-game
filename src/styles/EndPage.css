@@ -1,0 +1,15 @@
+.end-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 74px;
+}
+.end-page-box {
+  text-align: center;
+}
+.end-page-box h1 {
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px; 
+  opacity: 0.85;
+  margin-top: 9px;
+}

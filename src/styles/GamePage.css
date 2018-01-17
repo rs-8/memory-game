@@ -1,0 +1,30 @@
+.game-page-box {
+  margin: 54px auto;
+  width: 720px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: #FFFFFF; 
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.restart-button {
+  font-family: OpenSans-SemiBold, sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.25px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.restart-button:hover {
+  opacity: 1;
+}
+.score {
+  font-size: 14px;
+  opacity: 0.8;
+}

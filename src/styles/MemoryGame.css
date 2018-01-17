@@ -1,0 +1,22 @@
+.memory-game {
+  font-family: OpenSans-Bold, sans-serif;
+}
+.button {
+  box-sizing: border-box;
+  width: 144px;
+  height: 42px;
+  font-family: OpenSans-Bold, sans-serif;
+  font-size: 16px;
+  color: #1C7430;
+  opacity: 0.85;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 20px rgb(148, 219, 165);
+}
+

@@ -1,0 +1,260 @@
+@keyframes shake {
+  0%   { transform: rotate(0deg); }
+  20%   { transform: rotate(5deg); }
+  40%   { transform: rotate(-5deg); }
+  60%   { transform: rotate(5deg); }
+  80%   { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+.card {
+  width: 100px;
+  height: 140px;
+  padding: 10px;
+  text-align: center;
+  transition: all .2s;
+  perspective: 800;
+}
+.card-removed {
+  animation-name: shake;
+  animation-duration: .3s;
+}
+.card-removed .card-inner {
+  opacity: 0;
+}
+.card-unselected .card-inner {
+  transform: rotatey(180deg);
+}
+.card-unselected .card-back {
+  cursor: pointer;
+  transition: box-shadow .25s;
+}
+.card-unselected .card-back:hover {
+  box-shadow: 0px 0px 20px #dcf0e5;
+}
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all .5s;
+}
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+  backface-visibility: hidden ; 
+}
+.card-back {
+  background: url('../images/CardBack.png');
+  background-size: cover;
+  transform: rotatey(180deg);
+}
+/*Set background to cards*/
+.card-0C .card-front {
+  background: url('../images/cards/0C.png');
+  background-size: cover; 
+}
+.card-0D .card-front {
+  background: url('../images/cards/0D.png');
+  background-size: cover; 
+}
+.card-0H .card-front {
+  background: url('../images/cards/0H.png');
+  background-size: cover; 
+}
+.card-0S .card-front {
+  background: url('../images/cards/0S.png');
+  background-size: cover; 
+}
+.card-2C .card-front {
+  background: url('../images/cards/2C.png');
+  background-size: cover; 
+}
+.card-2D .card-front {
+  background: url('../images/cards/2D.png');
+  background-size: cover; 
+}
+.card-2H .card-front {
+  background: url('../images/cards/2H.png');
+  background-size: cover; 
+}
+.card-2S .card-front {
+  background: url('../images/cards/2S.png');
+  background-size: cover; 
+}
+.card-3C .card-front {
+  background: url('../images/cards/3C.png');
+  background-size: cover; 
+}
+.card-3D .card-front {
+  background: url('../images/cards/3D.png');
+  background-size: cover; 
+}
+.card-3H .card-front {
+  background: url('../images/cards/3H.png');
+  background-size: cover; 
+}
+.card-3S .card-front {
+  background: url('../images/cards/3S.png');
+  background-size: cover; 
+}
+.card-4C .card-front {
+  background: url('../images/cards/4C.png');
+  background-size: cover; 
+}
+.card-4D .card-front {
+  background: url('../images/cards/4D.png');
+  background-size: cover; 
+}
+.card-4H .card-front {
+  background: url('../images/cards/4H.png');
+  background-size: cover; 
+}
+.card-4S .card-front {
+  background: url('../images/cards/4S.png');
+  background-size: cover; 
+}
+.card-5C .card-front {
+  background: url('../images/cards/5C.png');
+  background-size: cover; 
+}
+.card-5D .card-front {
+  background: url('../images/cards/5D.png');
+  background-size: cover; 
+}
+.card-5H .card-front {
+  background: url('../images/cards/5H.png');
+  background-size: cover; 
+}
+.card-5S .card-front {
+  background: url('../images/cards/5S.png');
+  background-size: cover; 
+}
+.card-6C .card-front {
+  background: url('../images/cards/6C.png');
+  background-size: cover; 
+}
+.card-6D .card-front {
+  background: url('../images/cards/6D.png');
+  background-size: cover; 
+}
+.card-6H .card-front {
+  background: url('../images/cards/6H.png');
+  background-size: cover; 
+}
+.card-6S .card-front {
+  background: url('../images/cards/6S.png');
+  background-size: cover; 
+}
+.card-7C .card-front {
+  background: url('../images/cards/7C.png');
+  background-size: cover; 
+}
+.card-7D .card-front {
+  background: url('../images/cards/7D.png');
+  background-size: cover; 
+}
+.card-7H .card-front {
+  background: url('../images/cards/7H.png');
+  background-size: cover; 
+}
+.card-7S .card-front {
+  background: url('../images/cards/7S.png');
+  background-size: cover; 
+}
+.card-8C .card-front {
+  background: url('../images/cards/8C.png');
+  background-size: cover; 
+}
+.card-8D .card-front {
+  background: url('../images/cards/8D.png');
+  background-size: cover; 
+}
+.card-8H .card-front {
+  background: url('../images/cards/8H.png');
+  background-size: cover; 
+}
+.card-8S .card-front {
+  background: url('../images/cards/8S.png');
+  background-size: cover; 
+}
+.card-9C .card-front {
+  background: url('../images/cards/9C.png');
+  background-size: cover; 
+}
+.card-9D .card-front {
+  background: url('../images/cards/9D.png');
+  background-size: cover; 
+}
+.card-9H .card-front {
+  background: url('../images/cards/9H.png');
+  background-size: cover; 
+}
+.card-9S .card-front {
+  background: url('../images/cards/9S.png');
+  background-size: cover; 
+}
+.card-AC .card-front {
+  background: url('../images/cards/AC.png');
+  background-size: cover; 
+}
+.card-AD .card-front {
+  background: url('../images/cards/AD.png');
+  background-size: cover; 
+}
+.card-AH .card-front {
+  background: url('../images/cards/AH.png');
+  background-size: cover; 
+}
+.card-AS .card-front {
+  background: url('../images/cards/AS.png');
+  background-size: cover; 
+}
+.card-JC .card-front {
+  background: url('../images/cards/JC.png');
+  background-size: cover; 
+}
+.card-JD .card-front {
+  background: url('../images/cards/JD.png');
+  background-size: cover; 
+}
+.card-JH .card-front {
+  background: url('../images/cards/JH.png');
+  background-size: cover; 
+}
+.card-JS .card-front {
+  background: url('../images/cards/JS.png');
+  background-size: cover; 
+}
+.card-KC .card-front {
+  background: url('../images/cards/KC.png');
+  background-size: cover; 
+}
+.card-KD .card-front {
+  background: url('../images/cards/KD.png');
+  background-size: cover; 
+}
+.card-KH .card-front {
+  background: url('../images/cards/KH.png');
+  background-size: cover; 
+}
+.card-KS .card-front {
+  background: url('../images/cards/KS.png');
+  background-size: cover; 
+}
+.card-QC .card-front {
+  background: url('../images/cards/QC.png');
+  background-size: cover; 
+}
+.card-QD .card-front {
+  background: url('../images/cards/QD.png');
+  background-size: cover; 
+}
+.card-QH .card-front {
+  background: url('../images/cards/QH.png');
+  background-size: cover; 
+}
+.card-QS .card-front {
+  background: url('../images/cards/QS.png');
+  background-size: cover; 
+}
